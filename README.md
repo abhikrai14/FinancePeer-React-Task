@@ -4,7 +4,7 @@
 - Frontend - React.js
 - Database - PostgreSQL
 
-## setup backend
+## Steps for backend setup
 - Add postgres database credentials to django settings.py
 ```
 cd backend/backend/settings.py
@@ -20,7 +20,7 @@ DATABASES = {
 
         'USER': 'postgres',
 
-        'PASSWORD': 'po6S.dance',
+        'PASSWORD': 'abhik14',
 
         'HOST': 'localhost',
 
@@ -38,8 +38,8 @@ py manage.py migrate
 py manage.py runserver
 ```
 
-## setup frontend
+## Steps for frontend setup
 
-cd forntend
-npm install
-npm start
+- cd forntend
+- npm install
+- npm start
